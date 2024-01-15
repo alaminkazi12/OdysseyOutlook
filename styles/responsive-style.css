@@ -117,4 +117,24 @@
   .destination > img {
     width: 100%;
   }
+
+  .choose-us h2 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .choose-us p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .choose-us-card-container {
+    margin: 16px 20px 0;
+  }
+  .first-row {
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+  .second-row {
+    width: 100%;
+  }
 }
