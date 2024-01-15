@@ -6,3 +6,64 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
+body {
+  max-width: 1440px;
+  margin: auto;
+  border: 1px solid red;
+  min-height: 100vh;
+}
+
+/* header section syles */
+/* nevigation section styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 52px 135px 20px;
+  border: 1px solid green;
+}
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+.logo img {
+  width: 50px;
+  height: 58px;
+}
+.logo > h2 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.logo > h2 > span {
+  color: #ff5400;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+nav > ul > li {
+  list-style: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #424247
+  font-size: 18px;
+  font-weight: 700;
+}
+.visited-link {
+    color: #FF5400;
+}
+a:hover {
+    color: #FF5400;
+}
+/* toggle button syle */
+.toggle-button {
+    display: none;
+}
