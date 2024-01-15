@@ -74,10 +74,21 @@
   .destination-card-container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(7, 1fr);
+    row-gap: 16px;
   }
   #card-1 {
     grid-column: 1;
     grid-row: 1;
+  }
+  #card-1 img,
+  #card-2 img,
+  #card-3 img,
+  #card-4 img,
+  #card-5 img,
+  #card-6 img,
+  #card-7 img {
+    width: 335px;
+    height: 176px;
   }
   #card-2 {
     grid-column: 1;
