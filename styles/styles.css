@@ -124,7 +124,7 @@ select {
   outline: none;
   width: 174px;
 }
-.serch-box .primary-button {
+.primary-button {
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -134,4 +134,42 @@ select {
   border: none;
   padding: 16px 34px;
   cursor: pointer;
+}
+
+/* popular tours section styles */
+.popurlar-tours {
+  margin: 100px 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.popurlar-tours .col {
+  width: 50%;
+}
+.popurlar-tours .col > h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 8px;
+}
+.popurlar-tours .col p {
+  color: rgba(19, 19, 24, 0.7);
+  font-weight: 400;
+  line-height: 26px;
+  padding: 16px 0;
+}
+.popurlar-tours .col li {
+  color: rgba(19, 19, 24, 0.7);
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 20px;
+  padding: 8px 0;
+}
+.popurlar-tours .primary-button {
+  margin-top: 16px;
+}
+.popurlar-tours img {
+  width: 100%;
+  height: 100%;
 }
