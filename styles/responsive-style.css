@@ -1,3 +1,54 @@
 /* for mobile device */
 @media only screen and (max-width: 600px) {
+  nav {
+    margin: 20px 20px 20px;
+  }
+  nav .logo {
+    gap: 10px;
+  }
+  nav > ul {
+    display: none;
+  }
+  .logo > h2 {
+    font-size: 21.5px;
+    font-weight: 800;
+  }
+  .logo img {
+    width: 30px;
+    height: 34px;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .banner {
+    margin: 20px;
+    text-align: center;
+  }
+  .banner h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 32px;
+  }
+  .banner p {
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+  }
+  .serch-box {
+    display: flex;
+    width: 287px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .serch-box input,
+  select {
+    width: 255px;
+    flex-shrink: 0;
+  }
 }

@@ -53,17 +53,85 @@ nav > ul > li {
 }
 nav > ul > li > a {
   text-decoration: none;
-  color: #424247
-  font-size: 18px;
+  color: #424247;
   font-weight: 700;
 }
 .visited-link {
-    color: #FF5400;
+  color: #ff5400;
 }
 a:hover {
-    color: #FF5400;
+  color: #ff5400;
 }
 /* toggle button syle */
 .toggle-button {
-    display: none;
+  display: none;
+}
+
+/* banner section styles */
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/group-4.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 483px;
+  border-radius: 16px;
+  margin: 0 135px;
+  margin-top: 48px;
+}
+.banner h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.banner p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 65%;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+.serch-box {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.serch-box input,
+select {
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.5);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  padding: 16px 16px 16px 16px;
+  text-align: start;
+  outline: none;
+  width: 174px;
+}
+.serch-box .primary-button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  padding: 16px 34px;
+  cursor: pointer;
 }
