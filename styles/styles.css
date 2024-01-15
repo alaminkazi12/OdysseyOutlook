@@ -156,6 +156,7 @@ select {
 .popurlar-tours .col p {
   color: rgba(19, 19, 24, 0.7);
   font-weight: 400;
+  font-size: 16px;
   line-height: 26px;
   padding: 16px 0;
 }
@@ -168,6 +169,7 @@ select {
 }
 .popurlar-tours .primary-button {
   margin-top: 16px;
+  font-size: 20px;
 }
 .popurlar-tours img {
   width: 100%;
