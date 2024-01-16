@@ -166,4 +166,22 @@
   .v-col {
     width: 100%;
   }
+  .newslater {
+    margin: 24px 20px 0;
+    flex-direction: column;
+  }
+  .n-col {
+    width: 100%;
+  }
+  .n-col-2 .primary-button {
+    width: 50%;
+    top: 69%;
+    left: 48%;
+  }
+  .button-top-row {
+    font-size: 1rem;
+  }
+  .button-bottom-row {
+    font-size: 1.5rem;
+  }
 }
