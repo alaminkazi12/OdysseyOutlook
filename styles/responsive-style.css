@@ -188,12 +188,35 @@
   .n-col-2 .primary-button {
     width: 40%;
     top: 69%;
-    left: 48%;
+    left: 55%;
   }
   .button-top-row {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .button-bottom-row {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1065px) {
+  .logo > h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+  .logo img {
+    width: 35px;
+    height: 40px;
+  }
+  .banner h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .serch-box {
+    gap: 1rem;
+  }
+  .serch-box input,
+  select {
+    width: 150px;
   }
 }

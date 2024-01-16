@@ -9,7 +9,6 @@
 body {
   max-width: 1440px;
   margin: auto;
-  border: 1px solid red;
   min-height: 100vh;
 }
 
@@ -27,7 +26,7 @@ footer .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   cursor: pointer;
 }
 .logo img {
@@ -36,7 +35,7 @@ footer .logo {
 }
 .logo > h2 {
   color: #131318;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 800;
 }
 .logo > h2 > span {
@@ -88,7 +87,7 @@ a:hover {
 }
 .banner h2 {
   color: #fff;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
 }
 
@@ -105,10 +104,10 @@ a:hover {
 .serch-box {
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.3);
-  padding: 16px;
+  padding: 1rem;
   display: inline-flex;
   align-items: flex-start;
-  gap: 24px;
+  gap: 1.5rem;
 }
 .serch-box input,
 select {
