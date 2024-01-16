@@ -398,6 +398,27 @@ select {
   margin-top: 48px;
 }
 /* shop section styles */
+.shop-heading {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.shop-heading h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.shop-heading p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 60%;
+  margin: 16px 0 20px;
+}
 .shop {
   margin: 50px 135px 0;
   display: grid;
