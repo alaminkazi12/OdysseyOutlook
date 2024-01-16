@@ -178,6 +178,9 @@
   .v-col {
     width: 100%;
   }
+  .video-sec-overley {
+    font-size: 18px;
+  }
   .newslater {
     margin: 24px 20px 0;
     flex-direction: column;
@@ -218,5 +221,11 @@
   .serch-box input,
   select {
     width: 150px;
+  }
+  .p-hide {
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    max-height: 3em;
   }
 }

@@ -518,6 +518,20 @@ select {
   border-radius: 16px;
   filter: brightness(75%);
 }
+#video-sec {
+  position: relative;
+}
+.video-sec-overley {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
 
 /* newslatter section styles */
 .newslater {
