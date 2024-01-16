@@ -68,6 +68,23 @@
   .popurlar-tours .col li {
     font-size: 14px;
   }
+
+  .destination-content h2,
+  .choose-us h2,
+  .deals h2,
+  .shop-heading h2,
+  .v-col h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  .destination-content p,
+  .choose-us p,
+  .deals p,
+  .shop-heading p,
+  .v-col p,
+  .v-col li {
+    font-size: 0.8rem;
+  }
   .destination {
     margin: 24px 16px;
   }
@@ -149,6 +166,11 @@
   .see-all-pack {
     display: none;
   }
+  .shop {
+    margin: 20px 20px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .video-section {
     flex-direction: column;
     margin: 24px 20px 0;
