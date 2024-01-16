@@ -159,4 +159,11 @@
   .see-all-pack {
     display: none;
   }
+  .video-section {
+    flex-direction: column;
+    margin: 24px 20px 0;
+  }
+  .v-col {
+    width: 100%;
+  }
 }
