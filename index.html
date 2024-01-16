@@ -40,18 +40,24 @@
           create memories. Your adventure begins now!
         </p>
         <div class="serch-box">
-          <input
-            type="text"
-            name="where-to-go"
-            id="where-to-go"
-            placeholder="Where to go"
-          />
-          <select name="time" id="time">
-            <option value="" disabled selected>When</option>
-          </select>
-          <select name="type" id="type">
-            <option value="" disabled selected>Select Type</option>
-          </select>
+          <div>
+            <input
+              type="text"
+              name="where-to-go"
+              id="where-to-go"
+              placeholder="Where to go"
+            />
+          </div>
+          <div>
+            <select name="time" id="time" class="select-box">
+              <option value="" disabled selected>When</option>
+            </select>
+          </div>
+          <div>
+            <select name="type" id="type" class="select-box">
+              <option value="" disabled selected>Select Type</option>
+            </select>
+          </div>
           <button class="primary-button">
             <i class="fa-solid fa-magnifying-glass fa-beat"></i> Find Now
           </button>

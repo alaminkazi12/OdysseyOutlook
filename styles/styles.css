@@ -124,6 +124,14 @@ select {
   outline: none;
   width: 174px;
 }
+.select-box {
+  appearance: none;
+  background-image: url("../Images/select-arrow.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 20px) center;
+}
+
 .primary-button {
   color: #fff;
   text-align: center;
