@@ -137,4 +137,23 @@
   .second-row {
     width: 100%;
   }
+  .deals-card-container {
+    margin: 16px 20px 0;
+  }
+  .deals-card-content {
+    width: 80%;
+    padding: 26px 25px;
+    justify-content: center;
+    top: 15%;
+    left: 10%;
+  }
+  .p-hide {
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+    max-height: 3em;
+  }
+  .deals-card-content > h2 {
+    font-size: 20px;
+  }
 }

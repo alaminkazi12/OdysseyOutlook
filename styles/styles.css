@@ -21,7 +21,6 @@ nav {
   align-items: center;
   height: 60px;
   margin: 52px 135px 20px;
-  border: 1px solid green;
 }
 nav .logo {
   display: flex;
@@ -307,26 +306,29 @@ select {
   height: 300px;
 }
 /* why choose us section styles */
-.choose-us {
+.choose-us,
+.deals {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
 }
-.choose-us h2 {
+.choose-us h2,
+.deals h2 {
   color: #131318;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
 }
-.choose-us p {
+.choose-us p,
+.deals p {
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  width: 60%;
+  width: 50%;
   padding-top: 24px;
 }
 /* choose us card section styles */
@@ -368,4 +370,67 @@ select {
   width: 50%;
   align-items: center;
   margin: 24px auto;
+}
+
+/* deals card styles */
+.deals-card-container {
+  margin: 48px 135px 0;
+}
+.deals-card {
+  height: 500px;
+  background-image: url("../Images/grup-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+#deals-card-2,
+#deals-card-content-2 {
+  transform: scaleX(-1);
+}
+.deals-card-content {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: end;
+  padding: 52px 50px;
+  position: relative;
+  top: 10%;
+  left: 45%;
+}
+.deals-card-content > ul {
+  display: flex;
+  gap: 24px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+.deals-card-content > ul {
+  list-style: none;
+}
+.deals-card-content > ul i {
+  color: #ff5400;
+}
+.deals-card-content > h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 26px 0 16px;
+}
+.deals-card-content > p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.deals-card-content > h3 {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 16px 0 24px;
 }
