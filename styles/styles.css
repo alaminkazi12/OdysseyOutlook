@@ -558,16 +558,16 @@ hr {
 }
 .n-col-2 .primary-button {
   position: absolute;
-  width: 55%;
+  width: 50%;
   transform: rotate(-19.628deg);
   top: 64%;
-  left: 43%;
+  left: 46%;
 }
 .button-top-row {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .button-bottom-row {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 #newslater-content {
   padding: 35px;
